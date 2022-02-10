@@ -1,0 +1,124 @@
+#dashboard_right_now a.podcast-count:before, #dashboard_right_now span.podcast-count:before {
+	content: "\f482";
+}
+
+.feed-series-list-container {
+	margin-top: 8px;
+}
+
+#feed-series-toggle {
+	cursor: pointer;
+	float: left;
+	margin-top: 5px;
+	color: #aaa;
+}
+
+#feed-series-toggle:hover {
+	color: #777;
+}
+
+#feed-series-toggle:before {
+	font-family: dashicons;
+	font-size: 150%;
+}
+
+#feed-series-toggle.series-open:before {
+	content: "\f142";
+}
+
+#feed-series-toggle.series-closed:before {
+	content: "\f140";
+}
+
+#feed-series-list {
+	margin: 0;
+}
+
+.view-feed-link {
+	text-decoration: none;
+}
+
+.view-feed-link span {
+	font-size: 100%;
+	margin-top: 2px;
+	margin-bottom: -2px;
+}
+
+#podcast_settings .update-nag {
+	margin: 0;
+	padding: 1px 9pt;
+}
+
+textarea#episode_embed_code {
+	width: 100%;
+	height: 60px;
+}
+
+.episode_embed_code_size_option {
+	width: 50px;
+}
+
+#podcast-episode-data p {
+	line-height: 1.8;
+}
+
+#podcast-episode-data input[type="radio"] {
+	vertical-align: middle !important;
+}
+
+#podcast-episode-data input[type="text"] {
+	min-width: 50%;
+}
+
+.ssp-episode-details-label {
+	font-weight: bold;
+}
+
+#series_image_preview {
+	max-width: 160px;
+}
+
+#series_upload_image_button .dashicons {
+	vertical-align: middle;
+}
+
+#col-container .series-notice {
+	display: none;
+}
+
+
+.wp-core-ui {
+	.editor-styles-wrapper {
+		.castos-select {
+			font-size: 14px;
+			line-height: 2;
+			color: #2c3338;
+			border-color: #8c8f94;
+			box-shadow: none;
+			border-radius: 3px;
+			padding: 0 24px 0 8px;
+			min-height: 30px;
+			-webkit-appearance: none;
+			background: #fff url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 55%;
+			background-size: 16px 16px;
+			cursor: pointer;
+			vertical-align: middle;
+			margin: 0 5px 0 10px;
+			width: 300px;
+		}
+
+		.button {
+			vertical-align: middle;
+			min-height: 30px;
+		}
+
+		@media screen and (max-width: 600px) {
+			.castos-select, .button {
+				width: 100%;
+				max-width: 100%;
+				margin: 10px 0 0;
+				line-height: 1em;
+			}
+		}
+	}
+}
